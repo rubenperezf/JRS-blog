@@ -6,6 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="css/styles.css" rel="stylesheet">
         <title>Blog</title>
+        <script>
+        function later () {
+            alert("we dont have newsletter at this point!")
+        }
+        </script>
     </head>
     <body>
         <header>
@@ -23,7 +28,7 @@
                 </nav>
             </div>
         </header>
-        <section class="currently-posts" id="currently-posts">
+        <section class="posts" id="currently-posts">
             <div class="currently-posts2">
                 <h1>First day of class</h1>
                 <h2>10/07/2019</h2>
@@ -46,10 +51,24 @@
                 <p>HTML: HyperText Markup Language. We were talking about differents elements, tags and attributes: p, div...</p>
                 
             </div>
+            <div class="old-posts">
+                <h2>Blog Posts:</h2>
+            <ul>
+                <li><a href="#">10/7/2019: Post 1: Frist day of class</a></li>
+                <li><a href="#">10/8/2019: Post 2: HTML</a></li>
+                <li><a href="#">10/9/2019: Post 3: CSS</a></li>
+                <li><a href="#">10/10/2019: Post 4: Javascript</a></li>
+                <li><a href="#">10/11/2019: Post 5: More JavaScript</a></li>
+
+            </ul>
+
+
+        </div>
         </section>
         <div class="posts-container" id="write-posts">
         <section class="new-posts">
                 <form>
+                    <h2>Write a post in my blog!</h2>
                     <div class="post-row">
                         <label for="title-blog">Title:</label>
                         <textarea id="title-blog" name="title-blog" placeholder="First day of class"></textarea>
@@ -79,37 +98,15 @@
 
         </section>
 
-        <section class="old-posts">
-                <h2>Blog Posts:</h2>
-            <ul>
-                <li><a href="#">09/1/2019: Post 1</a></li>
-                <li><a href="#">09/7/2019: Post 2</a></li>
-                <li><a href="#">09/1/2019: Post 3</a></li>
-                <li><a href="#">09/1/2019: Post 4</a></li>
-                <li><a href="#">09/7/2019: Post 5</a></li>
-                <li><a href="#">09/1/2019: Post 6</a></li>
-                <li><a href="#">09/1/2019: Post 7</a></li>
-                <li><a href="#">09/7/2019: Post 8</a></li>
-                <li><a href="#">09/1/2019: Post 9</a></li>
-                <li><a href="#">09/1/2019: Post 10</a></li>
-                <li><a href="#">09/7/2019: Post 11</a></li>
-                <li><a href="#">09/1/2019: Post 12</a></li>
-                <li><a href="#">09/1/2019: Post 13</a></li>
-                <li><a href="#">09/7/2019: Post 14</a></li>
-                <li><a href="#">09/1/2019: Post 15</a></li>
 
-            </ul>
-
-
-        </section>
     </div>
 
         <footer class="footer-container">
             <div class="author-conatiner">
                 <p>Written by Ruben Perez</p>
                 <p>Contact me:</p>
-                <a href="https://github.com/rubenperezf/"><img style="width: 150px;" src="images/github.png"></a>
-                <a href="https://twitter.com/rubenscalabrine"><img style="width: 100px;" src="images/twitter.jpg"></a>
+                <a href="https://github.com/rubenperezf/"><img class="social-media"style="width: 150px;" src="images/github.png"></a>
+                <a href="https://twitter.com/rubenscalabrine"><img class="social-media" style="width: 100px;" src="images/twitter.jpg"></a>
             </div>
             <div class="newsletter-container">
                 <p>Sign up for our newsletter:</p>
@@ -118,7 +115,7 @@
                         <label for="email">Email:</label>
                         <input id="email" name="email" type="email" placeholder="joe@example.com"/>
                     </div>
-                    <button>Subscribe</button>
+                    <button onclick="later()">Subscribe</button>
                 </form>
             </div>
        </footer>

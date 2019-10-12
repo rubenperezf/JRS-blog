@@ -4,7 +4,7 @@
 }
 /*header*/
 header {
-    background-color: #05386B;
+    background-color: #5680E9;
     color: #ffffff;
     padding: 10px;
     position: fixed;
@@ -20,19 +20,27 @@ header {
 nav ul {
     display: flex;
     list-style: none;
+    
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: #5AB9EA;
 }
 nav li {
     padding-left: 10px;
     padding-right: 50px;
+    font-size: 1.5rem;;
 }
 nav a {
     color: #ffffff;
 }
 /*currently posts*/
-.currently-posts {
-    background-color: #5CDB95;
+.posts {
+    background-color: #84CEEB;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 100px;
 }
 .currently-posts2 {
@@ -40,19 +48,48 @@ nav a {
     padding: 50px;
 
 }
+.currently-posts2 h1,
+.currently-posts2 h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
 .currently-posts2 ul  {
     padding-left: 100px;
 }
-
+.currently-posts2 p {
+    padding-top: 10px;
+}
+.old-posts {
+    width: 15%;
+    background-color: 2E9CCA;
+    padding: 50px;
+}
+.old-posts ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.old-posts a {
+    text-decoration: none;
+    color: #05386B;
+    
+}
+.old-posts a:hover {
+color:#379683;
+}
+.old-posts li {
+    padding-bottom: 10px;
+}
 /*write posts*/
+.new-posts h2 {
+    text-align: center;
+}
 .new-posts {
     padding: 50px;
-    background-color: #8EE4AF;
-    width: 85%;
+    background-color: #5AB9EA;
+ 
 }
-.posts-container {
-    display: flex;
-}
+
 .post-row {
     display: flex;
     justify-content: center;
@@ -67,20 +104,11 @@ label {
     width: 80px;
     height: 50px;
 }
-/*old posts*/
-.old-posts {
-    width: 15%;
-    background-color: #EDF5E1;;
-    padding: 50px;
-}
-.old-posts ul {
-    list-style: none;
-    padding-left: 10px;
-    padding-top: 10px;
-}
+
+
 /*footer*/
 footer {
-    background-color: #05386B;
+    background-color: #5680E9;
     color: #ffffff;
     padding: 10px;
 }
@@ -88,5 +116,7 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-
+.social-media {
+    height: 60px;
+}
 
