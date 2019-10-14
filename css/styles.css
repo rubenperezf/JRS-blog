@@ -2,9 +2,14 @@
     padding: 0;
     margin: 0;
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    
+    
 }
 /*header*/
+body {
+    font-size: 20px;
+    
+}
 header {
     background-color: #5680E9;
     color: #ffffff;
@@ -108,8 +113,10 @@ color:#379683;
 .new-posts {
     padding: 50px;
     background-color: #5AB9EA;
+    font-size: 20px;
  
 }
+
 
 .post-row {
     display: flex;
@@ -140,4 +147,32 @@ footer {
 .social-media {
     height: 60px;
 }
+/*media*/
+@media only screen and (max-width: 700px) {
+    nav ul {
+        flex-wrap: wrap;
+        
+    }
+    body { 
+        font-size: 10px;
+    }
+    .old-posts {
+        width: 50%;
+    }
+}
+  @media only screen and (max-width: 1000px) {
+    .posts {
+        flex-wrap: wrap;
+        overflow: scroll;
+    }
+    
+    .header-container {
+        flex-wrap: wrap;
+        
+    }
+    body { 
+        font-size: 16px;
+    }
+
+  }
 
