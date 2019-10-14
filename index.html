@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="css/styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-        <title>Blog</title>
+        <title>Ruben Perez blog</title>
         <script>
         function later () {
             alert("we dont have newsletter at this point!")
@@ -16,13 +16,12 @@
     <body>
         <header>
             <div class="header-container">
-                <h1>JRS Blog</h1>
-                <img style="width:100px;" src="images/logo.jpg" alt="logo"/>
+                <h1><a class="jrs" href="index.html">JRS Blog</a></h1>
+                <img class="logo"style="width:100px;" src="images/logo.jpg" alt="logo"/>
             
                 <nav>  
                     <ul style="text-align: left;">
                         <li><a href="index.html">Home</a>
-                        <li><a href="#currently-posts">Posts</a>
                         <li><a href="#write-posts">Write a post</a>
                         <li><input type="text" placeholder="Search.."></li>
                     </ul>
@@ -30,42 +29,59 @@
             </div>
         </header>
         <section class="posts" id="currently-posts">
-            <div class="currently-posts2">
-                <h1>First day of class</h1>
-                <h2>10/07/2019</h2>
-                <img src="images/tree.gif">
-                <p></p>Today in class we were talking about:</p>
+                <div class="currently-posts2">
+                    <h1>First day of class</h1>
+                    <h2>10/07/2019</h2>
+                    <img class="image-post" src="images/tree.gif">
+                    <p></p>Today in class we were talking about:</p>
+                    <ul>
+                        <li>Abstraction</li>
+                        <li>CPU, memory, Storage</li>
+                        <li>Tree and data structure</li>
+                        <li>Terminal</li>
+                        <li>Git/Github</li>
+                        <li>Html</li>
+                    </ul>
+                    <p>Abstraction: The process of removing some details in order to focus attention on other details of higher importance.</p>
+                    <p>CPU, memory and storage: CPU is faster than MEmory is faster than Storage.</p>
+                    <p>Tree and data structure: Tree is hierarchical and Data structure is a way to organize date.</p>
+                    <p>Terminal: or the command line interface. 
+                        Commands: ls, pwd, cd, cd .., cd /, cd ~, sudo, mkdir, echo, mv, rm, rm -rf</p>
+                        <p>Git/Github: We create repositories that we can clone in or computer. For that we can add ., commit -am”” and push.</p>
+                    <p>HTML: HyperText Markup Language. We were talking about differents elements, tags and attributes: p, div...</p>
+                    
+                </div>
+                <div class="old-posts">
+                    <h2>Blog Posts:</h2>
                 <ul>
-                    <li>Abstraction</li>
-                    <li>CPU, memory, Storage</li>
-                    <li>Tree and data structure</li>
-                    <li>Terminal</li>
-                    <li>Git/Github</li>
-                    <li>Html</li>
+                    <li><a href="post-1.html">10/7/2019: Post 1: Frist day of class</a></li>
+                    <li><a href="post-2.html">10/8/2019: Post 2: CSS</a></li>
+                    <li><a href="post-3.html">10/9/2019: Post 3: JavaScript</a></li>
+                    <li><a href="post-4.html">10/10/2019: Post 4: Javascript</a></li>
+                    <li><a href="post-5.html">10/11/2019: Post 5: More JavaScript</a></li>
+    
                 </ul>
-                <p>Abstraction: The process of removing some details in order to focus attention on other details of higher importance.</p>
-                <p>CPU, memory and storage: CPU is faster than MEmory is faster than Storage.</p>
-                <p>Tree and data structure: Tree is hierarchical and Data structure is a way to organize date.</p>
-                <p>Terminal: or the command line interface. 
-                    Commands: ls, pwd, cd, cd .., cd /, cd ~, sudo, mkdir, echo, mv, rm, rm -rf</p>
-                    <p>Git/Github: We create repositories that we can clone in or computer. For that we can add ., commit -am”” and push.</p>
-                <p>HTML: HyperText Markup Language. We were talking about differents elements, tags and attributes: p, div...</p>
-                
+                <section class="comment">
+                <form>
+                        <h2>Write a coment!</h2>
+                        <div class="post-row">
+                            <label for="text s"></label>
+                            <textarea id="tex" name="text" rows="5" cols="100" placeholder="write here!"></textarea>
+                        </div>
+                        <div class="post-row">
+                            <label for="author">Author:</label>
+                            <textarea id="author" name="author" placeholder="Ruben Perez"></textarea>
+                        </div>
+                        <div class="post-row">
+                            <button class="btn-1">Submit</button>
+                        </div>
+                        
+                    </form>
+                </section>
+    
             </div>
-            <div class="old-posts">
-                <h2>Blog Posts:</h2>
-            <ul>
-                <li><a href="#">10/7/2019: Post 1: Frist day of class</a></li>
-                <li><a href="#">10/8/2019: Post 2: HTML</a></li>
-                <li><a href="#">10/9/2019: Post 3: CSS</a></li>
-                <li><a href="#">10/10/2019: Post 4: Javascript</a></li>
-                <li><a href="#">10/11/2019: Post 5: More JavaScript</a></li>
+            </section>
 
-            </ul>
-
-
-        </div>
-        </section>
         <div class="posts-container" id="write-posts">
         <section class="new-posts">
                 <form>

@@ -27,6 +27,13 @@ nav ul {
 nav a {
     text-decoration: none;
 }
+a.jrs {
+    text-decoration: none;
+    color: #fff;
+}
+a.jrs:hover {
+    color: #5AB9EA;
+}
 nav a:hover {
     color: #5AB9EA;
 }
@@ -38,6 +45,7 @@ nav li {
 nav a {
     color: #ffffff;
 }
+
 /*currently posts*/
 .posts {
     background-color: #84CEEB;
@@ -62,7 +70,7 @@ nav a {
     padding-top: 10px;
 }
 .old-posts {
-    width: 15%;
+    width: 30%;
     background-color: 2E9CCA;
     padding: 50px;
 }
@@ -82,6 +90,17 @@ color:#379683;
 .old-posts li {
     padding-bottom: 10px;
 }
+.image-post {
+    width: 600px;
+}
+/* comment*/
+.comment {
+    margin-top: 100px;
+}
+.comment h2 {
+    text-align: center;
+}
+
 /*write posts*/
 .new-posts h2 {
     text-align: center;

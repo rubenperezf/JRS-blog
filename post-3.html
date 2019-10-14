@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+        <title>Post 3</title>
+        <script>
+        function later () {
+            alert("we dont have newsletter at this point!")
+        }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <h1><a class="jrs" href="index.html">JRS Blog</a></h1>
+                <img class="logo"style="width:100px;" src="images/logo.jpg" alt="logo"/>
+            
+                <nav>  
+                    <ul style="text-align: left;">
+                        <li><a href="index.html">Home</a>
+                        <li><input type="text" placeholder="Search.."></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="posts" id="currently-posts">
+            <div class="currently-posts2">
+                <h1>JavaScript</h1>
+                <h2>10/09/2019</h2>
+                <img class="image-post" src="images/javascript.png">
+                <p></p>Today in class we were talking about:</p>
+
+                <p>Code is made for people.</p>
+                <p>const: never be changed ->inmutable</p>
+                <p>Function is a named, reusable code block.</p>
+                <p>	call the function add(23,23);</p>
+                <p>Scope: </p>
+                <ul>
+                    <li>Global scope: all code in program</li>
+                    <li>Local scope: in the function where is defined</li>
+                </ul>
+                    
+                    
+                </p>
+                
+            </div>
+            <div class="old-posts">
+                <h2>Blog Posts:</h2>
+            <ul>
+                <li><a href="post-1.html">10/7/2019: Post 1: Frist day of class</a></li>
+                <li><a href="post-2.html">10/8/2019: Post 2: CSS</a></li>
+                <li><a href="post-3.html">10/9/2019: Post 3: JavaScript</a></li>
+                <li><a href="post-4.html">10/10/2019: Post 4: Javascript</a></li>
+                <li><a href="post-5.html">10/11/2019: Post 5: More JavaScript</a></li>
+
+            </ul>
+            <section class="comment">
+                    <form>
+                            <h2>Write a coment!</h2>
+                            <div class="post-row">
+                                <label for="text s"></label>
+                                <textarea id="tex" name="text" rows="5" cols="100" placeholder="write here!"></textarea>
+                            </div>
+                            <div class="post-row">
+                                <label for="author">Author:</label>
+                                <textarea id="author" name="author" placeholder="Ruben Perez"></textarea>
+                            </div>
+                            <div class="post-row">
+                                <button class="btn-1">Submit</button>
+                            </div>
+                            
+                        </form>
+                    </section>
+
+        </div>
+        </section>
+        
+
+        <footer class="footer-container">
+            <div class="author-conatiner">
+                <p>Written by Ruben Perez</p>
+                <p>Contact me:</p>
+                <a href="https://github.com/rubenperezf/"><img class="social-media"style="width: 100px;" src="images/github.png"></a>
+                <a href="https://twitter.com/rubenscalabrine"><img class="social-media" style="width: 100px;" src="images/twitter.jpg"></a>
+                <a href="https://www.linkedin.com/feed/"><img class="social-media" style="width: 100px;" src="images/linkedin-logo.png"></a>
+            </div>
+            <div class="newsletter-container">
+                <p>Sign up for our newsletter:</p>
+                <form>
+                    <div class="form-row">
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="email" placeholder="joe@example.com"/>
+                    </div>
+                    <button onclick="later()">Subscribe</button>
+                </form>
+            </div>
+       </footer>
+        
+    </body>
+</html>
