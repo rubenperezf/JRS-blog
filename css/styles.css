@@ -159,6 +159,12 @@ footer {
     .old-posts {
         width: 50%;
     }
+    .currently-posts2 {
+        overflow: auto;
+    }
+    .inage-post {
+        width: 10px;
+    }
 }
   @media only screen and (max-width: 1000px) {
     .posts {
