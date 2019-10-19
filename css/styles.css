@@ -8,6 +8,7 @@
 /*header*/
 body {
     font-size: 20px;
+
     
 }
 header {
@@ -76,8 +77,9 @@ nav a {
 }
 .old-posts {
     width: 30%;
-    background-color: 2E9CCA;
+    background-color: #84CEEB;;
     padding: 50px;
+
 }
 .old-posts ul {
     list-style: none;
