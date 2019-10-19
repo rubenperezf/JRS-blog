@@ -7,7 +7,7 @@
 }
 /*header*/
 body {
-    font-size: 20px;
+    font-size: 26px;
 
     
 }
@@ -18,20 +18,26 @@ header {
     position: fixed;
     width: 100%;
 }
-
+.by-ruben {
+    font-size: 20px;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 nav ul {
     display: flex;
     list-style: none;
     
+    
+}
+nav input {
+    font-size: 20px;
 }
 nav a {
     text-decoration: none;
+    
 }
 a.jrs {
     text-decoration: none;
@@ -46,7 +52,8 @@ nav a:hover {
 nav li {
     padding-left: 10px;
     padding-right: 50px;
-    font-size: 1.5rem;;
+    font-size: 30px;
+
 }
 nav a {
     color: #ffffff;
@@ -107,7 +114,9 @@ color:#379683;
 .comment h2 {
     text-align: center;
 }
-
+textarea {
+    font-size: 20px;
+}
 /*write posts*/
 .new-posts h2 {
     text-align: center;
@@ -148,6 +157,17 @@ footer {
 }
 .social-media {
     height: 60px;
+}
+/*posts index*/
+.posts-index {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    background-color: #5AB9EA;
+    
+}
+.posts-indexh2 {
+    margin: 0 auto;
 }
 /*media*/
 @media only screen and (max-width: 700px) {
