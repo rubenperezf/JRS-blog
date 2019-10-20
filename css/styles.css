@@ -13,7 +13,7 @@ body {
 }
 header {
     background-color: #5680E9;
-    color: #ffffff;
+    color: #fff;
     padding: 10px;
     position: fixed;
     width: 100%;
@@ -261,4 +261,3 @@ color:#379683;
         width:100%;
     }
   }
-
